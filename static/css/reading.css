@@ -1,0 +1,76 @@
+body {
+    background-color: #FFFDD0;  
+    color: #A0522D;           
+    font-family: "Comic Sans MS", "Comic Neue", cursive, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('/static/images/finalBackground.png');
+}
+
+h1 {
+    font-size: 2.2em;
+    margin-top: 20px;
+    color: #8B4513; 
+}
+
+.story-container {
+    background-color: rgba(255, 245, 230, 0.9); 
+    border-radius: 12px;
+    padding: 20px;
+    width: 60%;
+    margin: 20px auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#story {
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+
+#refine-story-button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 25px;
+    background-color: #F5DEB3; 
+    color: #A0522D;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#refine-story-button:hover {
+    background-color: #DEB887;
+}
+
+.game-container {
+    margin: 40px auto;
+    max-width: 1000px;
+    position: relative;
+}
+
+.parallax {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.background {
+    background-image: url('/static/images/Mountain.png');
+}
+.midground {
+    background: url('/static/images/middleground.png') repeat-x;
+    transform: translateZ(-150px) scale(1.2);
+}
+.foreground {
+    background: url('/static/images/foreground.png') repeat-x;
+    transform: translateZ(-50px) scale(1.1);
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/reading.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}" type="image/x-icon">
+    <title>Reading Page</title>
+</head>
+<body>
+    <h1>Story Time</h1>
+
+    <div class="story-container">
+        <p id="story">{{ story }}</p>
+    </div>
+
+    <button id="refine-story-button">Refine Story</button>
+
+
+    <video id="video" width="1 px" height="1 px" autoplay style="display:none;"></video>
+    <canvas id="canvas" width="auto" height="auto" style="display:none;"></canvas>
+
+    <script src="{{ url_for('static', filename='js/reading.js') }}"></script>
+</body>
+</html>

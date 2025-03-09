@@ -1,0 +1,5 @@
+{'angry': 0.0, 'disgust': 0.0, 'fear': 0.0, 'happy': 0.0, 'sad': 0.0, 'surprise': 0.0, 'neutral': 0.0}
+{'angry': 0.2, 'disgust': 0.01, 'fear': 0.21, 'happy': 0.0, 'sad': 0.15, 'surprise': 0.0, 'neutral': 0.43}
+{'angry': 0.0, 'disgust': 0.0, 'fear': 0.0, 'happy': 0.99, 'sad': 0.0, 'surprise': 0.0, 'neutral': 0.01}
+{'angry': 0.03, 'disgust': 0.0, 'fear': 0.06, 'happy': 0.04, 'sad': 0.07, 'surprise': 0.02, 'neutral': 0.78}
+{'angry': 0.06, 'disgust': 0.0, 'fear': 0.01, 'happy': 0.04, 'sad': 0.05, 'surprise': 0.0, 'neutral': 0.84}

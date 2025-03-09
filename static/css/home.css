@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;            
+    margin: 0;               
+    flex-direction: column;  
+    background-color: #91dde9; 
+}
+
+.logo-container img {
+    width: 800px;  
+    height: auto;  
+    margin-bottom: 20px; 
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    width: 1300px;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    font-size: 150px;
+}
