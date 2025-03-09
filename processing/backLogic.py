@@ -5,8 +5,7 @@ import json
 
 
 
-API_KEY = "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"  # <-- REPLACE THIS WITH YOUR ACTUAL API KEY
-
+API_KEY = "INSERT_YOUR_APIKEY_HERE"
 ENDPOINT = "https://api.openai.com/v1/chat/completions"
 
 def get_test_emotion_data():
