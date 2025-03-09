@@ -3,7 +3,7 @@ import requests
 import base64
 import pygame
 
-API_KEY = "sk-7cf56d8b09e1b9838987b3ed3e68764500206663a1a750b0" 
+API_KEY = "YOUR_APIKEY_HERE" 
 
 def text_to_speech(text, voice_id="21m00Tcm4TlvDq8ikWAM"):
     endpoint = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}/with-timestamps"
